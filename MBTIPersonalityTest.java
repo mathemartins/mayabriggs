@@ -63,7 +63,7 @@ public class MBTIPersonalityTest {
         int[] scores = new int[8];
 
         for (int i = 0; i < answers.length; i++) {
-            switch (i % 20) {
+            switch (i % 4) {
                 case 0 -> {
                     scores[0] += (answers[i] == 'A') ? 1 : 0; // Extraversion
                     scores[1] += (answers[i] == 'B') ? 1 : 0; // Introversion
